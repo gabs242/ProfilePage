@@ -1,0 +1,244 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: burlywood;
+}
+
+header {
+    display: flex;
+    padding: 10px;
+    padding-right: 30px;
+    justify-content:space-between;
+    align-items: center;
+    border-bottom: 2px solid;
+    background-color: #9E530D;
+    width: auto;
+}
+
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+li a {
+    margin-right: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+li a:hover{
+    color:beige;
+    font-weight: bolder;
+}
+
+.First{
+    width: 80%;
+    display: flex;
+    gap: 4rem;
+    margin: 20px auto;
+    justify-content: center;
+
+}
+
+.picMe{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.name{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.aboutMe{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-color: white;
+}
+
+.me{
+    padding: 10px;
+}
+
+.A{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.B{
+    font-size: 20px;
+    margin: 10px;
+    padding-left: 20px;
+}
+
+.logo{
+    padding-left: 35px;
+}
+
+a:hover{
+    color: blue;
+    font-size:medium;
+    font-weight: bold;
+}
+
+.aktifitas{
+    margin: auto;
+    padding-left: 20px;
+    align-items: center;
+    width: 100%;
+}
+
+table a{
+    color:black;
+    text-decoration: none;
+}
+
+h2{
+    padding-left: 30px;
+    font-weight: bold;
+    background-color: #9E530D;
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+}
+
+.second{
+    padding-top: 20px;
+}
+
+.aktifitas img{
+    width: 75%;
+    height: 180px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.aktifitas td{
+    text-align: center;
+    font-weight: bold;
+    font-size: medium;
+}
+
+h3{
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+.list{
+    margin: auto 20px;
+    align-items: center;
+}
+
+.list th{
+    text-align:left;
+}
+
+.list td{
+    text-align: justify;
+}
+
+.Kegiatan{
+    width: 100%;
+}
+
+.organisasi{
+    margin: auto;
+    padding: 30px;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: white;
+}
+
+.organisasi img{
+    width: 75%;
+    height: 200px;
+    margin: 0 auto;
+}
+
+span{
+    font-weight: bold;
+}
+
+.organisasi td{
+    text-align: center;
+}
+
+.project{
+    margin: auto;
+    padding: 30px;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: white;
+}
+
+.project img{
+    width: 75%;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.project td{
+    text-align: center;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #9E530D;
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+    border-top: 1px solid;
+    border-bottom: 1px solid; 
+    margin-top: 20px;
+}
+
+@media screen and (max-width:710px){
+    .First{
+        flex-direction: column;
+        width: 80%;
+        column-gap: 3rem;
+        margin: 20px auto;
+        justify-content: center;
+    }
+
+    .picMe{
+        margin: auto;
+        align-items: center;
+    }
+
+    .aktifitas {
+        flex-direction: column;
+    }
+
+    .list{
+        text-align: justify;
+        font-size: small;
+        padding: 0px;
+    }
+     
+    .Kegiatan{
+        width: 100%;
+    }
+
+    .organisasi{
+        width: 85%;
+        font-size: small;
+    }
+
+    .project{
+        width: 85%;
+        font-size: small;
+    }
+
+    footer p{
+        font-size: smaller;
+    }
+}
